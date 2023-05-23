@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="container">
+          <div class="item">
+            <label for="name">Name:</label>
+          </div>
+
+          <div class="item">
+            <input id="name" type="text" name="name" required />
+          </div>
+
+          <div class="item">
+            <label for="email">Email:</label>
+          </div>
+
+          <div class="item">
+            <input id="email" type="text" name="email" maxlength="320" />
+          </div>
+
+          <div class="item">
+            <label for="your-message">Your Message:</label>
+          </div>
+
+          <div class="message-item">
+            <textarea
+              id="your-message"
+              name="message"
+              required
+              maxlength="360"
+            ></textarea>
+          </div>
+          <button class="submit-btn" type="submit">Submit</button>
+        </div>
+        
+      </form>
+    </main>
+  </body>
+</html>

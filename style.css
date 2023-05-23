@@ -1,0 +1,28 @@
+main {
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+  
+}
+
+.message-item {
+  flex: 1;
+  margin: 10px;
+  min-height: 80px;
+  max-height: 350px;
+}
+
+.submit-btn {
+  flex: 1;
+  width: 100px;
+}
